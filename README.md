@@ -1,8 +1,8 @@
-# algorithm-shuffle-array
+# Algorithm: Shuffle An Array
 An algorithm that takes in an array, shuffles it, and returns the shuffled array.
 
 ```javascript
-const shuffleParticipants = (array) => {
+const shuffleArray = (array) => {
     // shuffle the array
     let currentIndex = array.length,
       temporaryValue,
