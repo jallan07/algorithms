@@ -1,4 +1,4 @@
-# Algorithms:
+# Useful Algorithms
 
 
 ## shuffled-array.js
