@@ -6,6 +6,7 @@
 3. [Find Largest Num in Array](#Find-Largest-Number-in-Array)
 4. [Reverse a String](#Reverse-a-String)
 4. [Shuffle an Array](#Shuffle-an-Array)
+5. [Title Case](#Title-Case)
 
 ## Count Vowels in a String
 An algorithm for counting how many vowels appear in a given string
@@ -86,4 +87,22 @@ const shuffleArray = (array) => {
     // array = array.reverse();
     return array;
   };
+  ```
+  
+  ## Title Case
+  An algorithm that takes in a string and converts it to title case
+  
+  ```javascript
+  // takes in a string and returns a new string with the first letters of each word capitalized
+const titleCase = (str) => {
+  const result = [];
+  let words = str.split(" ");
+  for (let i = 0; i < words.length; i++) {
+    let word = words[i].split("");
+    word[0] = word[0].toUpperCase();
+    result.push(word.join(""));
+  }
+  return result.join(" ");
+};
+
   ```
