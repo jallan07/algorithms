@@ -1,9 +1,27 @@
 # Useful Algorithms
 
 ## Table of Contents
-1. [Largest Num in Array](#Largest-Num-in-Array)
-2. [Shuffled Array](#Shuffled-Array)
+1. [Count Vowels in a String](#Count-Vowels-in-a-String)
+2. [Largest Num in Array](#Largest-Num-in-Array)
+3. [Shuffled Array](#Shuffled-Array)
 
+## Count Vowels in a String
+An algorithm for counting how many vowels appear in a given string
+
+```javascript
+// return the the number of vowels in a given string
+const vowelCount = (str) => {
+  let result = 0;
+  const vowels = ["a", "e", "i", "o", "u"];
+  for (let i = 0; i < str.length; i++) {
+    let letter = str[i].toLowerCase();
+    if (vowels.indexOf(letter) !== -1) {
+      result += 1;
+    }
+  }
+  return result;
+};
+```
 
 ## Largest Num In Array
 An algorithm for returning the largest number in an array.
