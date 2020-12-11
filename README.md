@@ -4,6 +4,7 @@
 1. [Count Vowels in a String](#Count-Vowels-in-a-String)
 2. [Factorial](#Factorial)
 3. [Find Largest Num in Array](#Find-Largest-Number-in-Array)
+4. [Reverse a String](#Reverse-a-String)
 4. [Shuffle an Array](#Shuffle-an-Array)
 
 ## Count Vowels in a String
@@ -51,6 +52,17 @@ const maxNum = (arr) => {
     }
   }
   return max;
+};
+```
+
+## Reverse a String
+An algorithm for reversing strings
+
+```javascript
+// takes in a string, reverses it, and returns the reversed string
+const reverseString = (str) => {
+  let newStr = str.split('').reverse().join('');
+  return newStr;
 };
 ```
 
