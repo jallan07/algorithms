@@ -2,6 +2,7 @@
 
 ## Table of Contents
 1. [Largest Num in Array](#Largest-Num-in-Array)
+2. [Shuffled Array](#Shuffled-Array)
 
 
 ## Largest Num In Array
