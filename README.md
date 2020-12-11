@@ -2,8 +2,9 @@
 
 ## Table of Contents
 1. [Count Vowels in a String](#Count-Vowels-in-a-String)
-2. [Find Largest Num in Array](#Find-Largest-Number-in-Array)
-3. [Shuffle an Array](#Shuffle-an-Array)
+2. [Factorial](#Factorial)
+3. [Find Largest Num in Array](#Find-Largest-Number-in-Array)
+4. [Shuffle an Array](#Shuffle-an-Array)
 
 ## Count Vowels in a String
 An algorithm for counting how many vowels appear in a given string
@@ -18,6 +19,19 @@ const vowelCount = (str) => {
     if (vowels.indexOf(letter) !== -1) {
       result += 1;
     }
+  }
+  return result;
+};
+```
+
+## Factorial
+An algorithm that returns the factorial of a number
+```javascript
+// returns the factorial of `num`
+const factorial = (num) => {
+  let result = 1;
+  for (let i = num; i > 1; i--) {
+    result = result * i;
   }
   return result;
 };
