@@ -1,4 +1,4 @@
-const shuffleParticipants = (array) => {
+const shuffleArray = (array) => {
     // shuffle the array
     let currentIndex = array.length,
       temporaryValue,
