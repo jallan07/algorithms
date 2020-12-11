@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Count Vowels in a String](#Count-Vowels-in-a-String)
 2. [Find Largest Num in Array](#Find-Largest-Number-in-Array)
-3. [Shuffled Array](#Shuffle-an-Array)
+3. [Shuffle an Array](#Shuffle-an-Array)
 
 ## Count Vowels in a String
 An algorithm for counting how many vowels appear in a given string
