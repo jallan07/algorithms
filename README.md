@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Count Vowels in a String](#Count-Vowels-in-a-String)
-2. [Largest Num in Array](#Largest-Num-in-Array)
+2. [Find Largest Num in Array](#Find-Largest-Number-in-Array)
 3. [Shuffled Array](#Shuffled-Array)
 
 ## Count Vowels in a String
@@ -23,7 +23,7 @@ const vowelCount = (str) => {
 };
 ```
 
-## Largest Num In Array
+## Find Largest Number In Array
 An algorithm for returning the largest number in an array.
 
 ```javascript
