@@ -1,4 +1,7 @@
-# Algorithm: Shuffle An Array
+# Algorithms:
+
+
+## shuffled-array.js
 An algorithm that takes in an array, shuffles it, and returns the shuffled array.
 
 ```javascript
