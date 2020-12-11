@@ -1,7 +1,10 @@
 # Useful Algorithms
 
+## Table of Contents
+1. [Largest Num in Array](#Largest-Num-in-Array)
 
-## largest-num-in-array.js
+
+## Largest Num In Array
 An algorithm for returning the largest number in an array.
 
 ```javascript
@@ -22,7 +25,7 @@ const maxNum = (arr) => {
 };
 ```
 
-## shuffled-array.js
+## Shuffled Array
 An algorithm that takes in an array, shuffles it, and returns the shuffled array.
 
 ```javascript
